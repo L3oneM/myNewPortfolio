@@ -1,0 +1,113 @@
+.about-page {
+  width: 100vw;
+  height: 85vh;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    height: 100vh;
+  }
+
+  .about-page-ctn {
+    color: #fff;
+    width: 80%;
+    max-width: 985px;
+    margin: auto;
+
+    .about-ctn {
+      margin: 5rem auto 2.5rem;
+      color: #000;
+    }
+
+    .pers-info {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      padding-top: 0.7rem;
+
+      &:hover {
+        color: #2098d1;
+      }
+
+      &:active {
+        color: #fff;
+      }
+    }
+
+    .info-box {
+      padding: 1.5rem;
+      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .skills {
+      .skill-ctn {
+        margin: 2.5rem auto;
+        color: #000;
+      }
+
+      .front,
+      .back,
+      .testing {
+        margin: 2.5rem auto 5rem;
+      }
+
+      .img-ctn {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .redux-icon {
+          width: 192px;
+        }
+
+        .node-icon {
+          width: 192px;
+        }
+
+        .d3-icon {
+          width: 278px;
+        }
+      }
+    }
+    .certificates {
+      .cert-ctn {
+        margin: 2.5rem auto;
+        color: #000;
+      }
+    }
+
+    img {
+      height: 96px;
+      width: 96px;
+      background: #fff;
+      margin: 1rem 1rem;
+    }
+
+    .bar {
+      height: 0.4rem;
+      width: 8rem;
+      margin: auto;
+      background-color: #000;
+    }
+
+    .sm-bar {
+      height: 0.2rem;
+      width: 4rem;
+      background-color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .about-page {
+    height: 80vh;
+  }
+}

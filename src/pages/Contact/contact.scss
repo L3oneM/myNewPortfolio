@@ -1,0 +1,42 @@
+.contact-page {
+  height: 100vh;
+  position: relative;
+
+  .cnt-info {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .sm-heading {
+    font-size: 1.4rem;
+    margin: 2rem auto;
+  }
+
+  .bar {
+    height: 0.4rem;
+    width: 9rem;
+    margin: auto;
+    background-color: #000;
+  }
+
+  .email {
+    font-size: 2rem;
+    font-weight: 600;
+    span {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-page {
+    .lg-heading {
+      font-size: 3.5rem;
+    }
+    .sm-heading {
+      font-size: 2rem;
+    }
+  }
+}

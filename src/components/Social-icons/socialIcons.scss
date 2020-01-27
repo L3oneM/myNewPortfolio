@@ -1,0 +1,30 @@
+@import '../../config';
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 100%;
+
+  .icons {
+    margin-bottom: 1rem;
+
+    &.hide-footer {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .copyright {
+    font-size: 1.3rem;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  footer {
+    bottom: 5px;
+  }
+}

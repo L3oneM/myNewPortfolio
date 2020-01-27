@@ -1,0 +1,46 @@
+.ink-container {
+  display: none;
+  .btn {
+    z-index: 2;
+  }
+
+  &.add-visibility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bg {
+  background: url('https://codyhouse.co/demo/ink-transition-effect/img/ink.png');
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-2%);
+  height: 100%;
+  width: 2500%;
+  background-size: 100% 100%;
+  animation: fade 1.5s steps(24) reverse;
+  transition: 0.5s;
+
+  &.bg-ink {
+    animation: fade2 1.5s steps(24) forwards;
+  }
+}
+
+@keyframes fade {
+  0% {
+    transform: translateY(-50%) translateX(-2%);
+  }
+  100% {
+    transform: translateY(-50%) translateX(-98%);
+  }
+}
+@keyframes fade2 {
+  0% {
+    transform: translateY(-50%) translateX(-2%);
+  }
+  100% {
+    transform: translateY(-50%) translateX(-98%);
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../config';
+.icons-ctn {
+  margin: 1rem auto;
+}
+
+a {
+  padding: 0.6rem;
+  color: #000;
+
+  &:hover {
+    color: #2098d1;
+    @include easeOut();
+  }
+}
