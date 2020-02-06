@@ -19,7 +19,7 @@ const About = ({ setPage }) => {
             music.
           </p>
           <p>
-            I studied Mathematics(with direction on Programming) in the
+            I studied Mathematics (with direction on Programming) in the
             University of Ioannina. I worked as a Mathematician and some years
             after I discovered my hidden passion for web development.
           </p>
