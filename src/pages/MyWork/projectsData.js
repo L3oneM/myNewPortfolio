@@ -22,5 +22,18 @@ export const projectsData = [
     I made this project with React and Hooks because I wanted to test my understanding on Hooks in a fun way and for the styling I used the Styled Components library.
     THIS IS NOT MOBILE FRIENDLY
     `
+  },
+  {
+    title: 'Poke Roars',
+    imgUrl: '/images/projects/pokeroars.png',
+    demo: 'https://pokeroars-a3471.firebaseapp.com/',
+    github: 'https://github.com/L3oneM/pokeRoarsClient',
+    id: '3',
+    info: `Poke Roars a social app Full Stack Project.
+    For the FrontEnd I used:
+    React, Redux and Material UI.
+    For the backEnd: Firebase,
+    with ExpressJs.
+    `
   }
 ];
