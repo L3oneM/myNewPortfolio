@@ -11,6 +11,7 @@ const About = ({ setPage }) => {
           <h1 className='about-header lg-heading'>about me</h1>
           <div className='bar'></div>
         </div>
+        <i className='fas fa-arrow-down fa-3x ar-dw animated bounce slow infinite'></i>
         <div className='pers-info info-box'>
           <p>
             I am a Full Stack Web Developer and a Mathematician based in
@@ -24,7 +25,7 @@ const About = ({ setPage }) => {
             after I discovered my hidden passion for web development.
           </p>
           <a
-            href='https://drive.google.com/open?id=1QCd3uwfA-fxWjC4AXXrPTg9cdHaUfz9i'
+            href='https://drive.google.com/open?id=1_JomuTPWQHgmdQ3iKr2p7GRjEUp-dvD0'
             target='_blank'
             rel='noopener noreferrer'
           >
