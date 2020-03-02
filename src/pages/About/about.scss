@@ -15,6 +15,13 @@
     left: 4%;
   }
 
+  .pers-info {
+    .info-pars {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+
   .about-page-ctn {
     color: #fff;
     width: 80%;
@@ -24,11 +31,6 @@
     .about-ctn {
       margin: 5rem auto 2.5rem;
       color: #000;
-    }
-
-    .pers-info {
-      font-size: 1.2rem;
-      line-height: 1.5rem;
     }
 
     a {
@@ -115,5 +117,22 @@
 @media only screen and (max-height: 500px) {
   .about-page {
     height: 80vh;
+    .pers-info {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .about-page {
+    // .about-page-ctn {
+    //   .pers-info {
+    //     font-size: 1.5rem;
+    //   }
+    // }
+    .ar-dw {
+      top: 70%;
+      left: 2%;
+    }
   }
 }

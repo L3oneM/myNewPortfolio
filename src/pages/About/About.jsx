@@ -1,5 +1,9 @@
 import React from 'react';
 
+import Certificate from '../../components/Cerfificate/Certicate';
+
+import aboutData from './aboutData';
+
 import './about.scss';
 
 const About = ({ setPage }) => {
@@ -13,13 +17,13 @@ const About = ({ setPage }) => {
         </div>
         <i className='fas fa-arrow-down fa-3x ar-dw animated bounce slow infinite'></i>
         <div className='pers-info info-box'>
-          <p>
+          <p className='info-pars'>
             I am a Full Stack Web Developer and a Mathematician based in
             Thessaloniki, Greece. I enjoy coding, solving complex algorithmic
             problems and creating web apps. When I am not coding I usually play
             music.
           </p>
-          <p>
+          <p className='info-pars'>
             I studied Mathematics (with direction on Programming) in the
             University of Ioannina. I worked as a Mathematician and some years
             after I discovered my hidden passion for web development.
@@ -85,10 +89,15 @@ const About = ({ setPage }) => {
           </div>
         </div>
         <div className='certificates'>
-          {/* <div className='cert-ctn'>
+          <div className='cert-ctn'>
             <h2 className='sm-heading'>Certificates</h2>
             <div className='bar'></div>
-          </div> */}
+          </div>
+          <div className='testing info-box'>
+            {aboutData.map(cert => {
+              return <Certificate cert={cert} key={cert.id} />;
+            })}
+          </div>
         </div>
       </div>
     </div>
