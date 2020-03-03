@@ -26,6 +26,19 @@ export const projectsData = [
     `
   },
   {
+    title: 'Socket Chat App',
+    imgUrl: '/images/projects/chat-app.png',
+    demo: 'https://chat-appo.netlify.com/',
+    github: 'https://github.com/L3oneM/Chat-app-client/',
+    id: '4',
+    info: `Chat App is a Full Stack Project.
+    For the FrontEnd I used:
+    React with socket-io-client.
+    For the Backend I used:
+    Node, Express and socket-io
+    `
+  },
+  {
     title: 'Retris',
     imgUrl: '/images/projects/retris.png',
     demo: 'https://retris.netlify.com/',
